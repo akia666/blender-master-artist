@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blender-master-artist"
+version = "0.1.0"
+description = "Evidence-based Blender modeling skills, mesh validation, and approval gates"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = []
+
+[project.optional-dependencies]
+mcp = ["mcp>=1.2,<2"]
+dev = ["build>=1", "ruff>=0.9,<1"]
+
+[project.scripts]
+bma = "bma.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["bma*"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+

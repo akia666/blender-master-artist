@@ -1,0 +1,10 @@
+name: Blender integration (self-hosted)
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  blender:
+    runs-on: [self-hosted, blender]
+    steps:
+      - uses: actions/checkout@v4
+      - run: blender --background --factory-startup --python-exit-code 1 --python tests/blender_integration.py
