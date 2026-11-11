@@ -5,7 +5,7 @@ description: Model mechanical Blender props with separate components, controlled
 
 # Hard surface
 
-This is BMA's executable v0.1 specialization. Follow the stage and preservation
+This is BMA's executable specialization. Follow the stage and preservation
 rules in the root skill. The original enclosure demo runs through
 `scripts/blender_demo.py`; it is a QA regression exercise, not a stage approval.
 

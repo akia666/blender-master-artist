@@ -9,7 +9,24 @@ checkpoints, explicit stage approvals and bounded correction loops. Its first wo
 specialization is an original hard-surface instrument enclosure. It aims for measurable,
 reviewable quality; it does not promise flawless or universally production-ready models.
 
-## What works in v0.1
+## Version 0.2: reusable modeling knowledge
+
+Adds [modeling principles](references/modeling-principles.md),
+[procedural systems](references/procedural-modeling.md),
+[architecture](references/architecture-and-environments.md),
+[materials and lighting](references/materials-and-lighting.md),
+[performance](references/performance-optimization.md),
+[risk-based QA](references/quality-assurance.md), and
+[evidence-linked failure patterns](references/failure-patterns.md).
+The detailed guides and [anonymized environment case](case-studies/cyberpunk-megacity.md)
+are written in Russian. They separate observed outcomes, code-confirmed mechanisms,
+hypotheses and recommendations. No private scene, renders or transcripts are shipped.
+
+This is a documentation and packaging update, not a new generator or a demonstrated
+improvement in future modeling quality. Risk-based planning preserves the existing
+guarded Workflow's four-view evidence and approval contract.
+
+## Existing runtime capabilities
 
 - Scene inventory, source/evaluated mesh reports, geometry fingerprints and JSON summaries.
 - Configurable topology, area, duplicate-radius, transform, density, UV-presence and budget checks.

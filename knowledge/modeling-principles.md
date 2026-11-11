@@ -11,3 +11,9 @@ uncertainty about scale or construction instead of inventing precision.
 
 All geometric estimates have a coordinate convention, source and uncertainty. A neutral
 view and technical validation answer different questions and are both required.
+
+For the decision framework, domain limits and reproducible techniques read
+[modeling principles](../references/modeling-principles.md) and
+[risk-based QA](../references/quality-assurance.md). The
+[anonymized case](../case-studies/cyberpunk-megacity.md) separates observed outcomes
+from recommendations; editorial notes are not automatically verified runtime records.

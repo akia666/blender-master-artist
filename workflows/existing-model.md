@@ -6,7 +6,7 @@ parts. Record a baseline report and fingerprints before proposing changes.
 
 Treat existing names as preserved with `Workflow.inventory`. Obtain a scoped edit
 authorization and call `allow_existing_edits` for exactly those targets. The guarded
-v0.1 adapter supports local unparented/unconstrained mesh transforms and unapplied bevels;
+The adapter supports local unparented/unconstrained mesh transforms and unapplied bevels;
 more complex dependency changes need a separately reviewed operation, not a guard bypass.
 
 Do not delete invisible objects, rebuild from scratch, apply modifiers, change shared

@@ -14,6 +14,6 @@ deformation. Check shoulder/hip volume, elbow/knee bending, mouth corners and ey
 in actual test poses when rigging is in scope. Clean quads alone do not prove rig readiness.
 Inspect normals, self-contact, weights and rest-pose symmetry with the rig team or user.
 
-Use the subdivision profile for the cage where appropriate. BMA v0.1 does not automate
+Use the subdivision profile for the cage where appropriate. BMA does not automate
 anatomical diagnosis, weight validation or pose sweeps. Report rigging readiness as
 unverified unless an actual deformation test was performed and inspected.

@@ -16,4 +16,4 @@ when UV delivery is required.
 
 The game profile enforces layer presence. That does not establish UV quality, valid
 coordinates, overlap, padding or baking suitability. Those automatic metrics are not
-implemented in v0.1. Do not call a UV-presence pass an unwrap-quality pass.
+implemented in BMA. Do not call a UV-presence pass an unwrap-quality pass.

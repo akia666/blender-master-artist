@@ -15,5 +15,5 @@ penetration and self-intersection in wireframe and sectional views. If using sim
 record frame, collision thickness, scale and reproducibility settings.
 
 Do not automatically remesh a user surface or apply simulation/subdivision caches.
-Use open-surface checks for intentional sheets. v0.1 has no cloth-specific collision
+Use open-surface checks for intentional sheets. BMA has no cloth-specific collision
 solver or self-intersection detector: require visual evidence and state this limitation.

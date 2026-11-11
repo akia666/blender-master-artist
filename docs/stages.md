@@ -37,6 +37,14 @@ all later stage records and releases only named targets. Revalidate and resubmit
 Minor authorized corrections need a change log and fresh evidence too. Rejection
 records result, problem, cause hypothesis, correction strategy and retry validation.
 
+Targeted, risk-based checks can reduce repeated work within an authorized stage;
+they do not change `Workflow.submit` or its four-view requirement. A delivery budget
+of two cinematic previews is not a guarded stage pass. If required evidence is missing,
+keep submission pending rather than weakening the gate or adding unrequested expensive
+renders. Previously granted authorization counts within its actual scope; the agent
+must not invent approvals for direct Python batches. See
+[risk-based QA](../references/quality-assurance.md).
+
 The journal is intended for a single writer. External concurrent edits need coordination;
 source fingerprints are checked immediately before BMA operations. The local event
 hash chain detects accidental event changes, not malicious authorship or state rewriting.

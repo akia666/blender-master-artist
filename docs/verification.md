@@ -1,5 +1,22 @@
 # Verification record
 
+## v0.2 documentation and packaging
+
+The v0.2 update changed guidance, package version metadata and the skill installer
+allowlist. It did not change mesh validation, modeling algorithms or adapter gates.
+The 36 offline unit tests passed again, including the self-contained installer test.
+All ten skill entrypoints and local Markdown links passed `check_skills.py`; the
+root skill also passed the Skill Creator validator. The installed portable bundle
+passed its link and privacy checks. Publication-candidate scanning reported no findings;
+new documentation was also reviewed for identifying content and unsupported claims.
+
+No Blender project was changed or rendered for this update. The synthetic Blender
+suite and live MCP smoke test below are **v0.1 baseline evidence**, not rerun results.
+Documentation does not demonstrate improved artistic quality, cross-domain capability
+or reduced execution time. The anonymized case's private evidence is not distributed.
+
+## v0.1 runtime baseline
+
 Local verification date: 2026-11-11. These are actual local results, not a hosted CI
 badge or a comparative AI benchmark. Generated evidence stays in ignored `outputs/`.
 

@@ -18,7 +18,7 @@
     <text x="108" y="298" text-anchor="middle" fill="#8ee8c7" font-size="12" font-weight="600">MIT LICENSE</text>
     <rect x="178" y="277" width="150" height="32" rx="16" fill="#1b2940" stroke="#364863"/>
     <text x="253" y="298" text-anchor="middle" fill="#b7cdf5" font-size="12" font-weight="600">CODEX + CLAUDE</text>
-    <text x="50" y="356" fill="#697b96" font-size="12" letter-spacing="1.5">v0.1 · EXPERIMENTAL FOUNDATION</text>
+    <text x="50" y="356" fill="#697b96" font-size="12" letter-spacing="1.5">v0.2 · EVIDENCE &amp; MODELING KNOWLEDGE</text>
     <g transform="translate(899 48)">
       <path d="M142 16L270 88V230L142 304L14 230V88Z" fill="#101e30" stroke="#344963" stroke-width="1.5"/>
       <path d="M142 59L231 110L142 162L53 110Z" fill="#233f53" stroke="#75dedb" stroke-width="2"/>

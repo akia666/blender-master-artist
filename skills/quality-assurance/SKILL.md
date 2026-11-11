@@ -20,7 +20,13 @@ does not prove outward normals, absent intersections, edge flow, subdivision qua
 anatomy, mechanical feasibility or real export readiness. Edit-mode checks are reported
 unavailable rather than synchronizing or changing the mesh.
 
-Require front/side/top/perspective images and observations with hashes. Match their
-geometry fingerprints to the validation report and checkpoint receipt. Stage submission
+For guarded Workflow submissions require front/side/top/perspective images and
+observations with hashes. Match their geometry fingerprints to the validation report
+and checkpoint receipt. Stage submission
 checks this relationship; then explicit user approval unlocks the next stage. Failed
 or unreviewed work remains pending with a reproducible next action.
+
+Plan additional checks by risk rather than repeating every inspection after each
+operation. See [self-review](../../references/quality-assurance.md) for targeted
+sampling, evidence reuse and the distinction between a preview budget and the guarded
+four-view contract. Do not silently reduce required evidence or fabricate review.

@@ -38,3 +38,9 @@ record scene unit scale. All thresholds are configurable and must match asset us
 The first executed specialization is a removable-lid instrument enclosure. Other
 domains supply focused modeling instructions; automated domain-specific quality
 metrics and deformation/curvature testing are experimental and not claimed.
+
+Version 0.2 adds progressively loaded `references/` and an anonymized `case-studies/`
+layer. These are editorial guidance, not executable knowledge records or new runtime
+gates. The installer and source distribution include both directories. Workflow,
+validator and adapter contracts are unchanged; no measured modeling-quality improvement
+is claimed from documentation alone.

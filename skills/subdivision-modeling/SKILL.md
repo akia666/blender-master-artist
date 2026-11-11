@@ -17,4 +17,4 @@ across an approved surface. Preserve symmetry datums and smooth tangent transiti
 Do not apply subdivision merely to satisfy an export count. Obtain approval before
 changing approved control topology or using destructive remeshing. Record source and
 evaluated budgets independently. Automated curvature/edge-flow and pinching metrics
-are not implemented in v0.1; image evidence is required.
+are not implemented in BMA; image evidence is required.

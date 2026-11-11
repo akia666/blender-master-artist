@@ -10,3 +10,7 @@
 
 These are recommendations and hypotheses, not proven solutions to a particular asset.
 Promote a lesson only after its specified validation is actually performed.
+
+For evidence-linked environment, shader, procedural and preservation failures see
+[the detailed catalog](../references/failure-patterns.md). Its corrections retain
+their observed limitations; do not promote an untested cause or cross-domain transfer.

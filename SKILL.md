@@ -1,6 +1,6 @@
 ---
 name: blender-master-artist
-description: Create, refine, and validate Blender assets through official Blender Lab MCP with reference analysis, geometry preservation, inspection views, and explicit modeling-stage approvals. Use for Blender modeling and mesh quality review.
+description: Create, refine, and review Blender assets through official Blender Lab MCP using reference analysis, preserved geometry, modular construction, risk-based inspection, and explicit stage approvals. Use for modeling, environment development, material refinement, and mesh quality review.
 ---
 
 # Blender Master Artist
@@ -34,6 +34,11 @@ Prioritize **silhouette → proportions → major forms → secondary forms → 
 details → topology cleanup → materials → presentation**. Use neutral inspection
 lighting; appearance is not evidence of clean geometry.
 
+Before detailing, check the major outline, scale, contact and functional relationships.
+Use construction rules for procedural variation; random dimensions alone do not create
+design. Test one module and its joins before duplication. Keep shared-mesh edits scoped.
+For cross-domain decisions read [modeling principles](references/modeling-principles.md).
+
 Read only the relevant specialization:
 
 - [Reference analysis](skills/reference-analysis/SKILL.md): uncertain dimensions, view alignment, silhouette comparisons.
@@ -52,12 +57,34 @@ Reports expose configurable checks; validators never fix geometry. Read
 n-gon is not automatically a defect. `Mesh.validate()` mutates meshes; do not
 use it as a read-only validator.
 
-Capture front, side, top and perspective views. Actually inspect each image before
+For guarded stage submission, capture front, side, top and perspective views. Inspect each before
 setting its `reviewed` flag. Record concrete observations, image hashes, and blocking
 issues. Compare to references only when those references were examined and aligned.
 Propose prioritized, localized corrections tied to image or numeric evidence.
-Use `bma.correction.correction_loop`, default three attempts; stop at the configured
-limit, a missing evidenced plan, or an authorization boundary. Revalidate after edits.
+Plan inspection by risk: probe changed modules, contacts and edge cases instead of
+repeatedly auditing unchanged regions. This does not waive guarded evidence requirements.
+See [self-review and quality gates](references/quality-assurance.md). Use
+`bma.correction.correction_loop`, default three attempts or the user's stricter budget;
+stop at the configured limit, missing evidence, or an authorization boundary. Revalidate edits.
+
+## Work efficiently
+
+Batch related Python operations through official MCP. Cache inspected references for
+the batch; refresh after external changes, reloads or partial failures. Reuse mesh data
+and materials, avoid unnecessary dependency updates, Boolean operations and subdivision.
+Change only affected regions; retain editable major assets. Measure unique data and
+evaluated instances separately. Use cheap diagnostics before expensive final rendering.
+
+Load detailed guidance only for the current decision:
+
+- [Procedural systems](references/procedural-modeling.md): families, seeds and instances.
+- [Architecture and environments](references/architecture-and-environments.md): massing, districts, streets and connected routes.
+- [Materials and lighting](references/materials-and-lighting.md): PBR, windows, reflections and atmosphere.
+- [Performance](references/performance-optimization.md): batches, LOD, rendering and failure recovery.
+- [Failure patterns](references/failure-patterns.md): symptoms, evidenced causes and scoped corrections.
+
+The [anonymized environment case](case-studies/cyberpunk-megacity.md) explains evidence
+and limitations. Its scene counts and render settings are not universal budgets.
 
 ## Report honestly
 

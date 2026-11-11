@@ -16,5 +16,5 @@ lamp housings and lenses; tinted surfaces are not substitutes for missing struct
 
 Require approved silhouette and wheel placement before secondary panel work. Validate
 neutral reflections and orthographic views. Tire contact, steering clearance and panel
-manufacturability need explicit scope and evidence. v0.1 provides this workflow guidance;
+manufacturability need explicit scope and evidence. BMA provides this workflow guidance;
 it has no verified automatic vehicle reconstruction or curvature-continuity solver.

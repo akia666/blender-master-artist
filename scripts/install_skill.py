@@ -6,7 +6,8 @@ import shutil
 
 ROOT_FILES = ["SKILL.md", "README.md", "README.en.md", "LICENSE", "AGENTS.md", "CLAUDE.md", "pyproject.toml",
               "SECURITY.md", "CONTRIBUTING.md", "MANIFEST.in", ".gitignore"]
-ROOT_DIRS = ["bma", "scripts", "skills", "knowledge", "workflows", "validators", "integrations", "docs", "examples", "tests"]
+ROOT_DIRS = ["bma", "scripts", "skills", "knowledge", "references", "case-studies", "workflows",
+             "validators", "integrations", "docs", "examples", "tests"]
 
 
 def install_bundle(source, destination):
